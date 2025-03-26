@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
 
         // Suggest Button Click
         suggestButton.setOnClickListener {
+            // Sanitizing the user input
             val timeOfDay = timeInput.text.toString().trim().lowercase()
             val suggestion = when
                                      (timeOfDay) {
@@ -32,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                 "dessert" -> "dessert: Ice cream"
                 else -> "Invalid time entered. Try: morning, afternoon, dinner, etc."
             }
-
+            // Print user response
             mealSuggestion.text = suggestion
         }
 
@@ -42,8 +43,7 @@ class MainActivity : AppCompatActivity() {
             mealSuggestion.text = ""
         }
 
-
-    ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
