@@ -1,0 +1,15 @@
+Yan Ritha - ST10489659 Assignment 1
+This is a simple android app made with kotlin. It suggests a meal based on the time of day you type in.
+
+FAQ
+Question 1 What times can I enter?
+You can type: 'morning' 'afternoon' 'mid-afternoon' 'dinner' 'dessert'
+
+Question 2 What happens if I enter something else?
+The app will show a message telling you that the input is invalid.
+
+Features
+Simple and clean user interface.
+Meal suggestions based on user input.
+Input validation and error message.
+Reset button to clear input and output.
