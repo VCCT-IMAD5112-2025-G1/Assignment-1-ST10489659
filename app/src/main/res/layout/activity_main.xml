@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/food_image"
     tools:context=".MainActivity">
+<!-- aaronswomy. (n.d.). Food Desktop Wallpaper [Review of Food Desktop Wallpaper]. Retrieved March 25, 2025, from https://wallpapercave.com/w/q4TlMC1‌ -->
 
     <EditText
         android:id="@+id/timeInput"
