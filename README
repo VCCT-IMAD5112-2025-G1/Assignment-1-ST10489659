@@ -1,15 +1,60 @@
-Yan Ritha - ST10489659 Assignment 1
+##Yan Ritha - ST10489659 Assignment 1
+
 This is a simple android app made with kotlin. It suggests a meal based on the time of day you type in.
 
-FAQ
-Question 1 What times can I enter?
+GitHub link: https://github.com/VCCT-IMAD5112-2025-G1/Assignment-1-ST10489659
+
+YouTube link: https://youtu.be/41p2Mel4a7s?si=ycRhgSVyqgVhToPA
+
+FAQ:
+
+###Question 1 What times can I enter?
+
 You can type: 'morning' 'afternoon' 'mid-afternoon' 'dinner' 'dessert'
 
-Question 2 What happens if I enter something else?
+###Question 2 What happens if I enter something else?
+
 The app will show a message telling you that the input is invalid.
 
-Features
+Features:
+
 Simple and clean user interface.
 Meal suggestions based on user input.
 Input validation and error message.
 Reset button to clear input and output.
+
+Screenshot:
+"C:\Users\ST10489659\Pictures\Screenshots\Screenshot 2025-04-01 085558.png"
+"C:\Users\ST10489659\Pictures\Screenshots\Screenshot 2025-04-01 085724.png"
+"C:\Users\ST10489659\Pictures\Screenshots\Screenshot 2025-04-01 085656.png"
+"C:\Users\ST10489659\Pictures\Screenshots\Screenshot 2025-04-01 085809.png"
+"C:\Users\ST10489659\Pictures\Screenshots\Screenshot 2025-04-01 085748.png"
+
+API Reference:
+
+Android Developer Documentation (for UI & Activity Lifecycle)
+Android Developers. (n.d.) Activities overview. [online] Available at: https://developer.android.com/guide/components/activities/intro-activities [Accessed 20 Mar. 2025].
+
+Kotlin Programming Language (for Kotlin syntax and logic)
+Kotlinlang.org. (n.d.) Basic Syntax - Kotlin Programming Language. [online] Available at: https://kotlinlang.org/docs/basic-syntax.html [Accessed 23 Mar. 2025].
+
+GitHub Docs (for version control setup)
+GitHub Docs. (n.d.) Set up Git. [online] Available at: https://docs.github.com/en/get-started/quickstart/set-up-git [Accessed 24 Mar. 2025].
+
+GitHub Actions Docs (for CI/CD setup)
+GitHub Docs. (n.d.) About GitHub Actions. [online] Available at: https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions [Accessed 25 Mar. 2025].
+
+Android EditText and Button Tutorial (for UI interaction)
+Vogella GmbH. (n.d.) Android User Interface Input Controls. [online] Available at: https://www.vogella.com/tutorials/AndroidUI/article.html [Accessed 25 Mar. 2025].
+
+Books:
+
+Phillips, B. and Hardy, K. (2019) Android programming: the big nerd ranch guide. 4th edn. Boston: Pearson.
+
+Web source:
+
+Google (2024) Android Developers: Kotlin for Android, Available at: https://developer.android.com/kotlin (Accessed: 25 Mar 2025).
+
+JetBrains (2024) Kotlin programming language documentation, Available at: https://kotlinlang.org/docs/home.html (Accessed: 27 Mar. 2025).
+
+GitHub (2024) GitHub Actions Documentation, Available at: https://docs.github.com/en/actions (Accessed: 31 Mar. 2025).
